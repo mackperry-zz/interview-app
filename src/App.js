@@ -57,7 +57,7 @@ class App extends Component {
       defaultValue:"",
       choices:"",
     
-    })
+    });
     console.log(this.state.choices)
   };
     
@@ -67,7 +67,6 @@ class App extends Component {
 		const choices = this.state.choices.map((choice, idx) => {
 			return (
           	<option key={idx}>{choice}</option>
-     
 			
 			);
     });
