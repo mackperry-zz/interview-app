@@ -33,26 +33,32 @@ We commit to keeping the breaking changes minimal so you can upgrade `react-scri
 
 This app was created as an interview demo for Quick Base. The app is an admin control of a product that allows builders to set up their own input form (e.g. how Google Forms, Survey Monkey, or Quick Base allow you to build a survey with a multiple choice field.) The app creates a control to modify the properties of a multiple choice field. 
 
-## How to use
+# How to install
+1. Clone or download repo interview-app.
+2. Download and save file to local folder.
+3. On Command line, locate folder and run git npm start.
 
-# Label
+
+# How to use
+
+## Label
 In the "Label" field, type in the label you want for the builder. Clicking "Save Changes" at the bottom of the app will save the inputted label. 
 
-# Type
+## Type
 Check the box if a value is required to be added to "Choices".
 
-# Default value
+## Default value
 A value in the "Default Value" field will show after clicking "Save Changes", which will save the value inputted into "Add Choice" to "Default Value".
 
-# Add Choice
+## Add Choice
 An input into "Add Choice" will be saved into the dropdown menu after clicking "Add Choice" button. The input field will clear when clicking "Add Choice" button. 
 
-# Choices
+## Choices
 This is a chronologically-ordered dropdown menu of choices saved from "Add choice" field, from which users can choose.
 
-# Save Changes
+## Save Changes
 The "Save Changes" button saves the input in "Add choice" field both to "Default value" field and "Choices" dropdown.
 
-# Cancel
+## Cancel
 The "Cancel" button erases all inputs in fields. 
 
