@@ -37,8 +37,11 @@ This app was created as an interview demo for Quick Base. The app is an admin co
 1. Clone or download repo interview-app.
 2. Download and save file to local folder.
 3. On Command line, locate folder and run:
+
+```
  git npm start
 
+```
 
 # How to use
 
