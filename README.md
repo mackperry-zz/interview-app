@@ -39,8 +39,7 @@ This app was created as an interview demo for Quick Base. The app is an admin co
 3. On Command line, locate folder and run:
 
 ```
- git npm start
-
+npm start
 ```
 
 # How to use
