@@ -8,9 +8,9 @@ You can find the most recent version of this guide [here](https://github.com/fac
 This app was created as an interview demo for Quick Base. The app is an admin control of a product that allows builders to set up their own input form (e.g. how Google Forms, Survey Monkey, or Quick Base allow you to build a survey with a multiple choice field.) The app creates a control to modify the properties of a multiple choice field. 
 
 # How to install
-1. Clone or download repo interview-app.
+1. Clone or download repo "interview-app".
 2. Download and save file to local folder.
-3. On Command line, locate folder and run:
+3. On Command line, direct to local folder and run:
 
 ```
 npm start

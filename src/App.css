@@ -42,14 +42,11 @@ h1 {
 }
 
 
-h5 {
-
-}
-
 .label, .type, .defaultValue{
   display: flex;
   align-items: center
 }
+
 
 
 

@@ -37,18 +37,16 @@ class App extends Component {
 
   addChoice(){
     this.state.choices.push(this.state.value);
-    console.log(this.state.choices);
     this.setState({choices: this.state.choices});
     this.setState({value: ""})
   };
   saveChanges(){
     this.state.choices.push(this.state.value);
-    console.log(this.state.choices);
+
+    this.setState({defaultValue: this.state.value});
     this.setState({choices: this.state.choices});
     this.setState({label: this.state.label});
     this.setState({value: ""});
-    
-
   };
 
   cancelInput(){
@@ -58,12 +56,12 @@ class App extends Component {
       choices:"",
     
     });
-    console.log(this.state.choices)
+  
   };
     
   
   render() {
-    console.log(this.state);
+  
 		const choices = this.state.choices.map((choice, idx) => {
 			return (
           	<option key={idx}>{choice}</option>
