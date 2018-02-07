@@ -19,7 +19,7 @@ npm start
 # How to use
 
 ## Label
-In the "Label" field, type in the label you want for the builder. Clicking "Save Changes" at the bottom of the app will save the inputted label. 
+In the "Label" field, type in the label you want for the builder. The label will be related to your choices. Clicking "Save Changes" at the bottom of the app will save the inputted label. 
 
 ## Type
 Check the box if a value is required to be added to "Choices".
